@@ -24,5 +24,7 @@ composer install
 ## API Endpoints
 
 Create a Post: POST /api/posts
+
 List All Posts: GET /api/posts
+
 View a Single Post: GET /api/posts/{id}
