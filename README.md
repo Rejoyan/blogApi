@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+On Master Branch...
+
+
+Blog Post CRUD API
+Setup and Run
+Clone the repository:
+git clone <https://github.com/Rejoyan/blogApi.git>
+cd blogApi
+Install dependencies:
+composer install
+
+Set up your .env file with your database credentials.
+
+Run migrations
+
+Start the server
+
+php artisan serve
+
+API Endpoints
+Create a Post: POST /api/posts
+
+List All Posts: GET /api/posts
+
+View a Single Post: GET /api/posts/{id}
+>>>>>>> 211404dbb581a6bf816660e7cf4d727736dbbb83
